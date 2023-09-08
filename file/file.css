@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+
+background-color: rgb(72, 67, 67);
+padding: 15px;
+color: white;
+display: flex;
+align-items: center;
+list-style: none;
+justify-content: space-around;
+}
+.logo{
+    width: 150px;
+}
+.menus{
+    display: flex;
+    
+}
+.item{
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.item:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 300px;
+}
+.banner-contrainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    background-image: url("./images/down4.jpg");
+    color: white;
+    
+}
+.description{
+font-size: 40px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+.button{
+
+padding: 10px 20px;
+border-radius: 8px;
+background-color: red;
+}
+.button:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.para{
+
+    margin-bottom: 18px;
+}
+.h{
+    font-size: 40px;
+    text-align: center;
+}
+
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    background-image: url(./images/down4.jpg);
+    border-radius: 15px;
+
+padding: 30px;
+color: white;
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+   background-color: gray;
+   margin-top:10px ;
+}
+
+.service-contrainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
